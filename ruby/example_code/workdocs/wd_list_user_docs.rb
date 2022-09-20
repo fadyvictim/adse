@@ -28,7 +28,7 @@ end
 client = Aws::WorkDocs::Client.new(region: 'us-west-2')
 
 # Set to the email address of a user
-user_email = 'someone@somewhere'
+user_email = 'fprior@amazon.com'
 
 # Set to the OrganizationId of your WorkDocs site.
 orgId = 'd-123456789c'
