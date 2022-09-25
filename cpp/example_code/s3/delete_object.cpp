@@ -34,6 +34,9 @@
  */
 
 // snippet-start:[s3.cpp.delete_object.code]
+
+//Some useless comments.
+
 bool AwsDoc::S3::DeleteObject(const Aws::String &objectKey, const Aws::String &fromBucket, const Aws::String &region) {
     Aws::Client::ClientConfiguration clientConfig;
     if (!region.empty()) {
